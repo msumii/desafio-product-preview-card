@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,700,50;1,9..144,700,50&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 580px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.card .imagemProduto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informacoes {
+    padding: 25px;
+}
+
+.informacoes .subtitulo {
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.informacoes .titulo {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    width: 240px;
+    font-weight: 700;
+}
+
+.informacoes .descricao {
+    font-size: 14px;
+    width: 240px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.precos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.precos .precoDesconto {
+    font-size: 38px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    margin-right: 15px;
+}
+
+.precos .precoOriginal {
+    color: hsl(228, 12%, 48%);
+}
+
+.adicionarCarrinho {
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.adicionarCarrinho a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.adicionarCarrinho a img {
+    height: 100%;
+}
+
+.adicionarCarrinho a p {
+    font-weight: 700;
+    color: white;
+}
+
+@media (max-width: 425px) {
+    body {
+        padding: 30px 15px;
+    }
+    .card {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .card .imagemProduto img {
+        content: url(../public/images/image-product-mobile.jpg);
+    }
+
+    .informacoes .titulo {
+        width: auto;
+    }
+
+    .informacoes .descricao {
+        width: auto;
+    }
+} 
