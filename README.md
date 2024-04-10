@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Frontend Mentor - Product Preview Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mais um desafio realizado sendo ele do site Frontend Mentor, o desafio realizado foi o [Product Preview Card.](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Frontend Mentor - Product Preview Card](#frontend-mentor---product-preview-card)
+  - [Índice](#índice)
+  - [Visão Geral](#visão-geral)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [Meu Processo](#meu-processo)
+    - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Conclusão](#conclusão)
 
-### `npm start`
+## Visão Geral
+De forma resumida, o desafio se consiste em fazer um card, onde nele contêm a foto, o nome do produto, a descrição e o valor do produto que têm o valor original e o valor com desconto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+![](public/design/desktop-preview.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+- Solução URL: [Solução](https://www.frontendmentor.io/solutions/product-perview-card-7jfASln6Ws)
+- Site do Product Preview: [Blog Product Perview](https://desafio-product-preview-card.vercel.app)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Meu Processo
+Foi minha primeira aplicação feito em React e acabei passando por bastante dificuldades para tentar organizar e tentar entender o que de fato eu precisava fazer. Fui olhando documentação, PDF e etc para conseguir aplicar as necessidades do projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tecnologias Utilizadas
 
-### `npm run eject`
+- React
+- Git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conclusão
+O desafio foi complicado de ser realizado, principalmente por ser meu primeiro projeto utilizando React, mas estou me sentindo bem mais preparado para conseguir realizar cada ação que preciso para meus projetos futuros.
